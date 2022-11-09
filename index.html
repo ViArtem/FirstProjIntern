@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+</head>
+<body>
+    <form action="/i" method="post">
+        <label for="">Введіть логін користувача</label>
+        <input type="text" name="name" required>
+
+        <label for="">Введіть свій вік</label>
+        <input type="text" name="age" required>
+
+        <label for="">Введіть свій унікальний код доступу</label>
+        <input type="text" name="id" required>
+
+        <button type="submit">Підтвердити</button>
+    </form>
+    <br>
+    <form action="/res" method="post">
+        <label for="">Знайти користувача за іменем</label>
+        <input type="text" name="findByName">
+        <button type="submit">Знайти</button>
+    </form>
+    <br>
+    <form action="/rah" method="post">
+        <button type="submit">Порахувати середній вік користувача</button>
+    </form>
+    <form action="/visits" method="post">
+        <input type="text" name="time">
+        <button type="submit">Взнати час візиту користувача по імені</button>
+    </form>
+</body>
+</html>
